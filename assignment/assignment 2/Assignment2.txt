@@ -1,0 +1,83 @@
+Group A: Short Questions (2 Marks)
+
+1. Define the term “Sitemap” in the planning phase.
+    A Sitemap is an organized outline of all the web pages of a website and how they are connected. It helps developers plan the structure, navigation, and flow of the website before actual development begins.
+
+2. What is the purpose of the “Launch” phase in web development?
+    The Launch phase is the final stage where the fully developed website is published on a live server. After final testing and approval, the site becomes accessible to real users on the internet.
+
+3. Why is “Documentation” important in the development lifecycle?
+    Documentation is essential because it explains the system’s design, features, and working process. It helps developers understand the project easily, supports maintenance, and makes future upgrades or changes simpler.
+
+4. Differentiate between Front-end and Back-end development.
+        Front-end Development	                        Back-end Development
+        - Focuses on visual design and layout	        - Focuses on server operations
+        - Handles user interaction	                    - Handles data processing
+        - Uses HTML, CSS, JavaScript	                - Uses PHP, Python, Java, databases
+        - Works inside the browser	                    - Works on the server
+        - Emphasizes user experience	                - Emphasizes data storage and logic
+
+Group B: Long Questions (4 Marks)
+
+5. “Planning is the most critical phase of web development.” Discuss.
+    Planning is considered the most important phase because it sets the foundation for the entire web project. A well-planned project reduces confusion, errors, and unnecessary costs during development.
+    Major tasks in the planning phase include:
+        - Defining project objectives
+        - Understanding client needs
+        - Identifying the target users
+        - Preparing sitemaps and wireframes
+        - Choosing suitable technologies
+        - Estimating budget and schedule
+    Without proper planning, the project may face delays, poor quality, or failure to meet user expectations.
+
+6. Explain the iterative nature of the Maintenance phase. Why is a website never truly “finished”?
+    The Maintenance phase is continuous and repetitive because it starts after the website goes live and never completely ends. Websites require regular improvements to remain effective.
+    Maintenance includes:
+        - Updating website content
+        - Fixing technical issues
+        - Improving speed and performance
+        - Strengthening security
+        - Adding new features
+    A website is never fully “finished” because technology evolves, user needs change, and content must stay updated.
+
+7. Describe the process of Information Gathering. Why is understanding the target audience important?
+    Information Gathering is the first step of web development where developers collect all necessary details from the client.
+    This process includes:
+        - Meetings and discussions with clients
+        - Understanding business objectives
+        - Studying competitor websites
+        - Identifying functional requirements
+    Knowing the target audience is important because it helps create a website that matches user preferences, improves usability, and increases user satisfaction and engagement.
+
+Group C: Scenario-Based Questions (5 Marks)
+
+8. Client wants to skip the Testing phase. Explain the risks.
+    Avoiding the Testing phase can cause serious problems such as:
+        - Security threats due to untested vulnerabilities
+        - Malfunctioning features like forms or payments
+        - Device and browser compatibility issues
+        - Poor user experience due to bugs
+        - Testing ensures the website works correctly, safely, and smoothly. Skipping it can result in loss of users and reputation.
+
+9. Developer starts coding without design or sitemap. Analyze the issue.
+    The developer ignored the Planning and Design phases, leading to confusion and poor results.
+    Problems caused:
+        - No clear website structure
+        - Unclear client requirements
+        - No approved layout or design
+    Correct workflow:
+        - Gather requirements
+        - Design sitemap and wireframes
+        - Get client approval
+        - Start development
+    Following proper steps helps avoid rework and client dissatisfaction.
+
+10. University website became outdated. Which phase was neglected?
+    The Maintenance phase was ignored.
+    This phase involves:
+        - Updating notices, results, and schedules
+        - Fixing broken links and errors
+        - Monitoring performance
+        - Improving security
+        - Updating features when required
+    Neglecting maintenance results in outdated information and reduced trust from users.
