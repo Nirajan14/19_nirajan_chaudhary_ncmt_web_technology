@@ -1,0 +1,154 @@
+CHAPTER 3: WEBSITE STRUCTURE DESIGN
+-----------------------------------------------------------------------------------------------------------------------
+
+Group A: Short Questions (2 Marks)
+-----------------------------------------------------------------------------------------------------------------------
+
+    1. Define Information Architecture (IA).
+    Answer:
+        Information Architecture (IA) is the process of **organizing, structuring, and labeling website content so that users can easily find information and navigate the site.
+        It focuses on menus, categories, navigation paths, and content hierarchy to improve usability and user experience.
+
+    -----------------------------------------------------------------------------------------------------------------------
+
+    2. What is a “Wireframe”?
+    Answer:
+        A wireframe is a basic visual blueprint of a website or webpage that shows the layout, structure, and placement of elements such as headers, navigation menus, content areas, and buttons—without colors, images, or final design details.
+        It helps designers plan functionality before visual design begins.
+
+    --------------------------------------------------------------------------------------------------------------------------
+
+    3. Explain the concept of “Cognitive Friction” in web design.
+    Answer:
+        Cognitive friction refers to the mental effort required by users to understand and use a website.
+        When navigation is confusing, labels are unclear, or layout is cluttered, users must think harder, which causes frustration and increases the chance of leaving the site.
+
+    -----------------------------------------------------------------------------------------------------------------------
+
+    4. Why should URL slugs use hyphens instead of underscores?
+    Answer:
+        Hyphens (`-`) are preferred because:
+            * Search engines treat hyphens as word separators
+            * Underscores (`_`) are read as a single word
+            * Hyphens improve readability and SEO
+
+        Example:
+            * Good: `my-website-design`
+            * Bad: `my_website_design`
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Group B: Long Questions (4 Marks)
+--------------------------------------------------------------------------------------------------------------------------
+
+    5. Compare and contrast Hierarchical (Tree) structure and Linear (Sequential) structure. Give an example of when to use each.
+    Answer:
+        | Aspect            | Hierarchical Structure                    | Linear Structure                    |
+        | ----------------- | ----------------------------------------- | ----------------------------------- |
+        | Structure         | - Tree-like with parent-child pages       | - Step-by-step sequence             |
+        | Navigation        | - Multiple paths                          | - One path only                     |
+        | Complexity        | - Suitable for large websites             | - Suitable for small content        |
+        | Flexibility       | - High                                    | - Low                               |
+
+        Examples:
+            * Hierarchical: University website (Home → Faculty → Department → Course)
+            * Linear: Online exam, checkout process, tutorial steps
+
+    --------------------------------------------------------------------------------------------------------------------------
+
+    6. Explain the ”Three-Click Rule” and its significance in User Experience (UX) design.
+    Answer:
+        The Three-Click Rule states that users should be able to find any information on a website within three clicks from the homepage. The main idea behind this rule is to reduce user frustration and mental effort while navigating a website. If users are forced to click too many times to reach their desired information, they may feel confused, impatient, or lost, which often results in them leaving the website.
+        From a User Experience (UX) perspective, the rule emphasizes efficiency and clarity in navigation design. Users usually visit a website with a specific goal, such as finding information, completing a task, or making a purchase. When the path to that goal is long or unclear, it increases cognitive friction, causing dissatisfaction.
+
+        Significance:
+            * Improves usability
+            * Reduces user frustration
+            * Encourages user engagement
+            * Helps in better navigation planning
+
+    --------------------------------------------------------------------------------------------------------------------------
+
+    7. ”Plan before you do.” Explain how tools like Card Sorting and Flowcharts help in planning a website’s structure.
+    Answer:
+        * Card Sorting:
+        Users group content into categories that make sense to them. This helps designers create user-friendly navigation and menus.
+
+        * Flowcharts:
+        Flowcharts visually represent how users move from one page to another, helping designers plan logical navigation paths and reduce confusion.
+
+        Both tools ensure better information architecture and usability before development begins.
+
+    --------------------------------------------------------------------------------------------------------------------------
+
+Group C: Scenario-Based Questions (5 Marks)
+-----------------------------------------------------------------------------------------------------------------------------
+
+    8. You are designing a website for a University. It has hundreds of pages (Admissions, Departments, Alumni, News). Which structural model would you choose? Draw a rough diagram and justify your choice.
+    Answer:
+        Chosen Model: Hierarchical (Tree) Structure
+
+        Justification:
+            * University websites have hundreds of pages
+            * Content is naturally divided into categories
+            * Easy to expand and maintain
+            * Supports logical navigation
+
+        Rough Diagram:
+
+        Home
+        ├── Admissions
+        │    ├── Undergraduate
+        │    ├── Postgraduate
+        ├── Departments
+        │    ├── Science
+        │    ├── Management
+        ├── Alumni
+        ├── News
+
+
+    -----------------------------------------------------------------------------------------------------------------------------
+
+    9. A user visits a website but leaves within 10 seconds because they cannot find the navigation menu, which is hidden behind a small icon on a desktop screen. Analyze this design failure using the ”KISS” (Keep It Simple) principle.
+    Answer:
+        Problem:
+            The navigation menu is hidden behind a small icon on a desktop screen.
+
+        KISS Principle (Keep It Simple, Stupid):
+            * Design should be simple and obvious
+            * Hiding navigation increases cognitive friction
+            * Desktop users expect visible menus
+
+        Analysis:
+            * Users cannot quickly find navigation
+            * Causes frustration within seconds
+            * Leads to high bounce rate
+
+        Solution:
+            * Display full navigation menu on desktop
+            * Use icons only where appropriate
+            * Reduce unnecessary complexity
+
+    -----------------------------------------------------------------------------------------------------------------------------
+
+    10. An e-commerce website has a URL structure like www.shop.com/prod?id=55&cat=9. Explain why this is bad for both users and Search Engines (SEO), and propose a better structure using Page Slugs.
+    Answer:
+        Given URL:
+        `www.shop.com/prod?id=55&cat=9`
+
+        Why this is bad:
+            * Difficult for users to understand
+            * Not SEO-friendly
+            * No descriptive keywords
+            * Hard to remember or share
+
+        Better URL Using Page Slugs:
+            `www.shop.com/electronics/smartphone-samsung-galaxy`
+
+        Benefits:
+            * User-friendly
+            * SEO-optimized
+            * Clear content meaning
+            * Better search engine ranking
+
+------------------------------------------------------------------------------------------------------------------------------------------
